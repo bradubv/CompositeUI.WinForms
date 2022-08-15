@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cnt.ObjectBuilder" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Cnt.CompositeUI">
+      <HintPath>..\..\CompositeUI\CompositeUI\bin\Debug\net6.0\Cnt.CompositeUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
