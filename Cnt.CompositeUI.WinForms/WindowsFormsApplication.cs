@@ -26,11 +26,8 @@
 //===============================================================================
 // Copyright © cntsoftware.com
 
-using System;
-using System.Windows.Forms;
 using Cnt.ObjectBuilder;
 using Cnt.CompositeUI.UIElements;
-using Cnt.CompositeUI.BuilderStrategies;
 using Cnt.CompositeUI.Commands;
 using Cnt.CompositeUI.WinForms.UIElements;
 
